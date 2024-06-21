@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GCR_CREDENTIALS_ID = 'gcp' // The ID you provided in Jenkins credentials
+        GCR_CREDENTIALS_ID = 'msmith-service-key' // The ID you provided in Jenkins credentials
         IMAGE_NAME = 'test-image-5'
         GCR_URL = 'gcr.io/lbg-uplift-project'
     }
